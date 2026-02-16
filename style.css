@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: black;
+    padding-top: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    left: 0px;
+    top: opx;
+    position: fixed;
+    padding: 25px 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+     z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 35px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    transition:all .5s ease-out;
+}
+
+.navbar ul li a:hover,
+.navbar ul li.active a {
+    color: aquamarine;
+    transform: scale(1.1);
+}
+
+.home{
+    display: flex;
+    padding: 65px 9% 0px;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+}
+
+.home-info h1{
+    font-size: 55px;
+}
+
+.home-info h2{
+    font-size: 32px;
+    margin-top:-10px ;
+}
+
+.home-info p{
+    font-size: 15px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;   
+}
+
+.home-info .btn-sci a{
+display: inline;
+border: solid 2px rgb(87, 125, 87);
+border-radius: 50%;
+padding: 8px;
+margin: 0 8px;
+transition:all .5s ease-out;
+}
+.home-info .btn-sci a:hover{
+   transform: scale(1.1);
+    background-color: rgb(60, 116, 97);
+    box-shadow: 0 0 10px rgb(87, 208, 87);   
+}
+

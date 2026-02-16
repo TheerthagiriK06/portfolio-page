@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: black;
+    padding-top: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    left: 0px;
+    top: opx;
+    position: fixed;
+    padding: 25px 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+     z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 35px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    transition: all .5s ease-out;
+}
+
+.navbar ul li a:hover,
+.navbar ul li.active a {
+    color: aquamarine;
+    transform: scale(1.1);
+}
+
+.container{
+    background-color: gray;
+    width: 60%;
+    margin: 220px auto;   
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgb(22, 154, 31);
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+
+.container h1{
+    text-align: center;
+    margin:0 0 13px;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+.container.skills
+{
+    display: flex;
+}
+.container .skills .btn{
+    
+    margin:20px;
+    padding: 10px;
+    background-color: rgb(11, 104, 73);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    transition: all .5s ease-out;
+    box-shadow: 0 6px 6px black;
+    cursor: pointer;
+    width: 130px;
+}
+
+.container .skills .btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(1, 45, 30);
+}
